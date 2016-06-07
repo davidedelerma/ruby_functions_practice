@@ -86,7 +86,14 @@ def number_to_short_month_name(num)
     when 12
       return "Dec"
     end
-  end
+end
 
+def voulume_of_cube(edge)
+  return edge**3
+end
+
+def volume_of_sphere(radius)
+  return ((4.0 / 3.0) * (Math::PI) * (radius**3)).round(2)
+end
 
 
